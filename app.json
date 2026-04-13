@@ -11,6 +11,7 @@
     "Anime"
   ],
   "repository": "https://github.com/shnwazdeveloper/Gojo_Satoru.git",
+  "success_url": "https://t.me/shinohelpbot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token, obtained from @BotFather.",
@@ -40,7 +41,7 @@
     "OWNER_ID": {
       "description": "Your Telegram user ID as an integer.",
       "required": true,
-      "value": "8206476526
+      "value": "8206476526"
     },
     "SUPPORT_GROUP": {
       "description": "Your Telegram support group username for user assistance.",
