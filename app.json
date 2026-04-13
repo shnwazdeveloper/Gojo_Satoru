@@ -7,7 +7,7 @@
     "group bot",
     "group",
     "manager",
-    "Gojo",
+    "shino",
     "Anime"
   ],
   "repository": "https://github.com/shnwazdeveloper/Gojo_Satoru.git",
@@ -16,27 +16,27 @@
     "BOT_TOKEN": {
       "description": "Your Telegram bot token, obtained from @BotFather.",
       "required": true,
-      "value": ""
+      "value": "8785969968:AAGSPI7y5RgoHiPIyFGu2u6Uz25oRlG2Ck4"
     },
     "API_ID": {
       "description": "Your API_ID from my.telegram.org, required for Pyrogram.",
       "required": true,
-      "value": ""
+      "value": "30422005"
     },
     "API_HASH": {
       "description": "Your API_HASH from my.telegram.org, required for Pyrogram.",
       "required": true,
-      "value": ""
+      "value": "5170ded206641d73215baf40175a6924"
     },
     "DB_URI": {
       "description": "Your MongoDB connection string.",
       "required": true,
-      "value": ""
+      "value": "mongodb+srv://shnwazx12:q0BzGZZKAANUDJ9l@shnwaz3.zqupsee.mongodb.net/?appName=Shnwaz3"
     },
     "DB_NAME": {
       "description": "Your MongoDB database name.",
       "required": true,
-      "value": ""
+      "value": "shnwazx12"
     },
     "OWNER_ID": {
       "description": "Your Telegram user ID as an integer.",
@@ -51,17 +51,17 @@
     "MESSAGE_DUMP": {
       "description": "Channel where bot will send logs and updates.",
       "required": true,
-      "value": ""
+      "value": "-1003959646985"
     },
     "PREFIX_HANDLER": {
       "description": "Prefix(es) for bot commands, separated by space (e.g., '/ ! $').",
-      "required": false,
+      "required": true,
       "value": "/ ! $"
     },
     "DEV_USERS": {
       "description": "Space-separated list of user IDs for bot developers.",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "8566475119"
     },
     "SUPPORT_CHANNEL": {
       "description": "Channel where bot updates will be posted.",
@@ -70,23 +70,23 @@
     },
     "SUDO_USERS": {
       "description": "Space-separated list of user IDs to assign as sudo users.",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "8566475119"
     },
     "WHITELIST_USERS": {
       "description": "Space-separated list of user IDs who are whitelisted.",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "8566475119"
     },
     "GENIUS_API": {
       "description": "Your Genius API token to fetch song lyrics.",
       "required": true,
-      "value": ""
+      "value": "aAi1pJBeQwfi_MY5nH7sCxN1yJC2Q1pS6fOtlRLlSERm4ZB4j6dey8pAJDqps-gR"
     },
-    "BDB_URI": {
+    "DB_URI": {
       "description": "Additional MongoDB URI to store extra information.",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "mongodb+srv://shnwazx12:q0BzGZZKAANUDJ9l@shnwaz3.zqupsee.mongodb.net/?appName=Shnwaz3"
     },
     "TIME_ZONE": {
       "description": "Your time zone (e.g., 'Asia/Kolkata').",
@@ -96,7 +96,7 @@
     "RMBG_API": {
       "description": "Your Remove.bg API key to remove image backgrounds.",
       "required": true,
-      "value": ""
+      "value": "5RZzNs1QtNFHp1mfjAvewovy"
     },
     "WORKERS": {
       "description": "Number of workers to run the bot.",
